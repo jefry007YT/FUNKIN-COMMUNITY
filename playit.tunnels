@@ -1,0 +1,60 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "choice-trademarks.gl.joinmc.link",
+          "assigned_srv": "choice-trademarks.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "67c5ed83-699a-4635-93ac-dee4058194cd",
+          "ip_hostname": "23.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 15164,
+          "port_start": 15163,
+          "region": "global",
+          "static_ip4": "147.185.221.23",
+          "tunnel_ip": "2602:fbaf:0:1::17"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-10-13T04:03:34.600929Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "7b6bde89-e038-43d3-b4d0-4adaff248695",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "cee2e853-a565-4150-a24d-bf69b463c80a",
+          "agent_name": "FUNKIN COMMUNITY",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "proxy_protocol": null,
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
